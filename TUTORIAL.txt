@@ -1,0 +1,22 @@
+STARTED WITH JOBS
+step 1 : jenkins - new item - add details
+step 2 : trigger the jobs remotely ( trigger builds remotely by using authentication token on any m/c)
+step 3 : chain job executions by using post build actions and build triggers
+
+JENKINS INTREGRATION WITH GIT
+step 1: Create java program in notepad and save it as java file
+	open cmd and run
+	javac hello.java
+	java hello
+step 2: Create jenkins job to run the program	
+	open jenkins type in window batch command
+	cd /Users/AK/Desktop/java project
+	javac hello.java
+	java Hello
+	and build
+step3: Add project to git and github
+
+USE CATLIGHT(JENKINS BUILD MONITOR)
+
+CONTINUOUS DELIVERY AND DEPLOYMENT PIPELINE
+BUILD->DEPLOY->TEST->RELEASE
